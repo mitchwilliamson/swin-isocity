@@ -149,7 +149,7 @@ implementation
 	  tfIn: TextFile;
 	  s: string;
 	begin
-		AssignFile(tfIn, 'names.txt');
+		AssignFile(tfIn, PathToResource('names.txt'));
 		
 		// Embed the file handling in a try/except block to handle errors gracefully
 		try
